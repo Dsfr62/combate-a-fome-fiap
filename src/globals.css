@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-item {
+    @apply px-6 py-5 w-[10%] text-center cursor-pointer text-fourth font-medium hover:bg-secondary ease-linear transition-all text-lg rounded-sm
+}
+
+.navbar-item-selected {
+    @apply px-6 py-5 w-[10%] text-center cursor-pointer text-secondary font-medium text-lg rounded-sm
+}
