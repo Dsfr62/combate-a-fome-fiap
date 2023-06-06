@@ -3,9 +3,26 @@
 @tailwind utilities;
 
 .navbar-item {
-    @apply px-6 py-5 w-[10%] text-center cursor-pointer text-fourth font-medium hover:bg-secondary ease-linear transition-all text-lg rounded-sm
+    @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-black font-medium text-lg hover:text-secondary-default ease-linear transition-all
 }
 
 .navbar-item-selected {
-    @apply px-6 py-5 w-[10%] text-center cursor-pointer text-secondary font-medium text-lg rounded-sm
+    @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-primary-default font-bold lg:font-medium text-lg 
+}
+
+
+.fade-in-1 {
+    animation: 1s fade-in cubic-bezier(0.25, 1, 0.5, 1) backwards;
+}
+  
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    45% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
 }
