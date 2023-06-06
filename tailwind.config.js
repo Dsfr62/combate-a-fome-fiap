@@ -11,6 +11,7 @@ module.exports = {
         "primary-default": "#2F8B0C",
         "primary-dark": "#256e0a",
         "secondary-default": "#FA575D",
+        "secondary-dark": "#DC4B4B",
         "third-default": "#ECECEC",
       }
     },

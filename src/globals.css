@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply fade-in-1
+}
+
 .navbar-item {
-    @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-black font-medium text-lg hover:text-secondary-default ease-linear transition-all
+  @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-black font-medium text-lg hover:text-secondary-default ease-linear transition-all
 }
 
 .navbar-item-selected {
-    @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-primary-default font-bold lg:font-medium text-lg 
+  @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-primary-default font-bold lg:font-medium text-lg 
 }
 
 
@@ -16,13 +20,13 @@
 }
   
 @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    45% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

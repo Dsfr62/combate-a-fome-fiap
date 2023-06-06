@@ -1,23 +1,23 @@
-import Layout from "@/components/global/layout";
+import HomeFirstSection from "@/components/home/first-section";
 
 export default function Home() {
   return (
-  <Layout>
-    <div className="h-screen flex flex-col justify-center items-start md:items-center px-12 lg:px-20">
-      <p className="text-3xl md:text-6xl xl:text-7xl font-bold text-primary-default">
-        VIDA NOVA
+  <div>
+    <HomeFirstSection />
+    <div className="w-full bg-secondary-dark h-fit md:h-32 flex flex-col md:flex-row items-center gap-10 py-4 px-2 lg:px-40">
+      <p className="font-bold text-3xl lg:text-4xl text-white flex flex-col items-center">
+        125 milhões
+        <span className="font-light text-sm text-center">DE PESSOAS NO BRASIL VIVEM EM SITUAÇÃO DE INSEGURANÇA ALIMENTAR</span>
       </p>
-      <p className="text-xl md:text-3xl xl:text-4xl font-bold text-primary-default text-justify mt-12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit est a aliquam ullamcorper. Curabitur quam magna, scelerisque eget ultrices.
+      <p className="font-bold text-3xl lg:text-4xl text-white flex flex-col items-center">
+        41.6 kg
+        <span className="font-light text-sm text-center">DE COMIDA SÃO DESEPERDIÇADAS POR CADA BRASILEIRO ANUALMENTE</span>
       </p>
-      <p className="text-base md:text-lg xl:text-xl font-light text-primary-default text-justify mt-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit est a aliquam ullamcorper. Curabitur quam magna, scelerisque eget ultrices.
+      <p className="font-bold text-3xl lg:text-4xl text-white flex flex-col items-center">
+        27 milhões
+        <span className="font-light text-sm text-center">DE TONELADAS DE ALIMENTOS FORAM DESPERDIÇADOS NO BRASIL EM 2019</span>
       </p>
-      <button type="button" 
-      className="bg-secondary-default rounded-full font-bold text-white md:text-lg xl:text-xl py-1 text-center w-[50%] lg:w-[30%] xl:w-[25%] mt-8">
-        SAIBA MAIS
-      </button>
     </div>
-  </Layout>
+  </div>
   )
 }
