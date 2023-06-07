@@ -5,25 +5,36 @@ const SobreFirstSection = () => {
     return (
         <div
             className="h-auto flex flex-col items-start">
-            <div className="bg-[#F5EFEF] w-full h-auto py-8 px-6 flex flex-col items-start sm:px-12">
-                <p className="text-4xl font-bold text-fourth-default sm:text-6xl">Crise Alimentar</p>
-            </div>
-            <div className="px-6 py-8 flex flex-col lg:flex-row sm:px-12">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Insegurança Alimentar</h2>
-                <div className="lg:w-2/3">
-                    <Image src={lineIMG} alt="img" className="mb-6 md:mt-6 lg:mt-0"/>
-                    <p className="text-primary-dark">Conflitos, perturbações econômicas, eventos climáticos extremos e a
-                        escalada vertiginosa dos preços dos fertilizantes estão se combinando para gerar uma crise
-                        alimentar de proporções sem precedentes. </p>
-                    <p className="text-primary-dark mt-6">A incerteza sobre a origem da próxima refeição assombra
-                        aproximadamente 828 milhões de pessoas. Estamos diante de uma encruzilhada: tomar medidas
-                        imediatas para salvar vidas e investir em soluções que garantam a segurança alimentar, a
-                        estabilidade e a paz para todos, ou testemunhar um aumento crescente da fome ao redor do
-                        mundo.</p>
+            <div className="bg-[#F5EFEF] w-full h-auto py-8 flex flex-col items-start">
+                <div className="flex justify-items-start w-full max-w-[1440px] mx-auto px-8">
+                    <h1 className="text-4xl font-bold text-fourth-default sm:text-6xl">
+                        Crise Alimentar
+                    </h1>
                 </div>
             </div>
-            <div className="px-6 py-8 flex flex-col lg:flex-row sm:px-12">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Causas da fome extrema</h2>
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
+                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">
+                    Insegurança Alimentar
+                </h2>
+                <div className="lg:w-2/3">
+                    <Image src={lineIMG} alt="img" className="mb-6 md:mt-6 lg:mt-0"/>
+                    <p className="text-primary-dark">
+                        Conflitos, perturbações econômicas, eventos climáticos extremos e a
+                        escalada vertiginosa dos preços dos fertilizantes estão se combinando para gerar uma crise
+                        alimentar de proporções sem precedentes.
+                    </p>
+                    <p className="text-primary-dark mt-6">
+                        A incerteza sobre a origem da próxima refeição assombra aproximadamente 828 milhões de pessoas.
+                        Estamos diante de uma encruzilhada: tomar medidas imediatas para salvar vidas e investir em
+                        soluções que garantam a segurança alimentar, a estabilidade e a paz para todos, ou testemunhar
+                        um aumento crescente da fome ao redor do mundo.
+                    </p>
+                </div>
+            </div>
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
+                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">
+                    Causas da fome extrema
+                </h2>
                 <div className="lg:w-2/3">
                     <Image src={lineIMG} alt="img" className="mb-6 md:mt-6 lg:mt-0"/>
                     <p className="text-primary-dark">Por que o mundo está mais faminto do que nunca?</p>
@@ -43,8 +54,9 @@ const SobreFirstSection = () => {
                         todos.</p>
                 </div>
             </div>
-            <div className="px-6 py-8 flex flex-col lg:flex-row sm:px-12">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Pontos críticos de fome</h2>
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
+                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Pontos críticos de
+                    fome</h2>
                 <div className="lg:w-2/3">
                     <Image src={lineIMG} alt="img" className="mb-6 md:mt-6 lg:mt-0"/>
                     <p className="text-primary-dark">Do Corredor Seco da América Central e do Haiti, através do Sahel,
@@ -66,8 +78,9 @@ const SobreFirstSection = () => {
                         lugares, causando uma das maiores crises de refugiados na história recente da Europa.</p>
                 </div>
             </div>
-            <div className="px-6 py-8 flex flex-col lg:flex-row sm:px-12">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Vamos acabar com a fome</h2>
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
+                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Vamos acabar com a
+                    fome</h2>
                 <div className="lg:w-2/3">
                     <Image src={lineIMG} alt="img" className="mb-6 md:mt-6 lg:mt-0"/>
                     <p className="text-primary-dark">Uma proposta de solução consiste na utilização de Inteligências

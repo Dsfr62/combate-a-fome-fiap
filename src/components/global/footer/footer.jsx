@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col w-full items-start md:items-center my-6 md:my-0">
                 <p className="text-white font-bold text-lg mb-2">NOSSO CONTATO</p>
-                <p className="text-lg text-white font-light truncate">Email: contato@vida-nova.com.br</p>
+                <p className="text-lg text-white font-light truncate">Email: contato@vidanova.com.br</p>
                 <p className="text-lg text-white font-light">Instagram: @vidanova</p>
             </div>
             <div className="w-full flex flex-col">
