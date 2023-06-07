@@ -15,6 +15,12 @@ module.exports = {
         "third-default": "#0B75C1",
         "fourth-default": "#FA575D",
         "fifth-default": "#D9D9D9"
+      },
+      width: {
+        1440: "1440px"
+      },
+      backgroundImage: {
+        'bg-banner-img' : "url('../public/fome_banner.png')",
       }
     },
   },
