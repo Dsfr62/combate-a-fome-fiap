@@ -6,7 +6,7 @@ const AgricultureFourthSection = () => {
         <div className="h-auto flex flex-col items-start bg-primary-default">
             <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col justify-between lg:flex-row">
                 <div className="w-full md:w-2/5 mb-4 md:mb-0">
-                    <Image src={boxIMG} alt="img" className="w-[100%]"/>
+                    <Image src={boxIMG} alt="img" className="w-[100%] rounded-lg"/>
                 </div>
                 <div className="w-full md:w-2/4">
                     <p className="text-white text-lg">

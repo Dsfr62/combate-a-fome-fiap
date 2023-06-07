@@ -1,0 +1,72 @@
+{
+    "data": [
+        {
+          "anos": 2004,
+          "fome_cronica": 852
+        },
+        {
+          "anos": 2005,
+          "fome_cronica": 848
+        },
+        {
+          "anos": 2006,
+          "fome_cronica": 842
+        },
+        {
+          "anos": 2007,
+          "fome_cronica": 841
+        },
+        {
+          "anos": 2008,
+          "fome_cronica": 848
+        },
+        {
+          "anos": 2009,
+          "fome_cronica": 856
+        },
+        {
+          "anos": 2010,
+          "fome_cronica": 863
+        },
+        {
+          "anos": 2011,
+          "fome_cronica": 870
+        },
+        {
+          "anos": 2012,
+          "fome_cronica": 876
+        },
+        {
+          "anos": 2013,
+          "fome_cronica": 871
+        },
+        {
+          "anos": 2014,
+          "fome_cronica": 862
+        },
+        {
+          "anos": 2015,
+          "fome_cronica": 852
+        },
+        {
+          "anos": 2016,
+          "fome_cronica": 844
+        },
+        {
+          "anos": 2017,
+          "fome_cronica": 826
+        },
+        {
+          "anos": 2018,
+          "fome_cronica": 811
+        },
+        {
+          "anos": 2019,
+          "fome_cronica": 801
+        },
+        {
+          "anos": 2020,
+          "fome_cronica": 828
+        }
+      ]
+}
