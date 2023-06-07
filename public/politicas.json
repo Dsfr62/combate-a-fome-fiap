@@ -1,13 +1,31 @@
 {
-    "data": [
-        {
-            "title": "Colocar a governança inclusiva e a responsabilidade no centro dos esforços para transformar os sistemas alimentares.",
-            "sections": [
-                "Os governos devem respeitar, proteger e garantir o direito à alimentação, que deve ser consagrado na legislação nacional e apoiado por mecanismos para reparação de queixas. Todos os atores, desde cidadãos até organizações regionais e internacionais e tribunais em todos os níveis, devem contribuir para responsabilizar os governos.",
-                "É vital que os governos fortaleçam a coordenação inclusiva das políticas de alimentação e nutrição em todos os níveis. Em particular, os processos de planejamento e orçamentação do governo devem levar em consideração os desequilíbrios de poder existentes e priorizar as vozes dos grupos e constituintes mais vulneráveis ​​e afetados por crises. O apoio deve ser direcionado a órgãos inclusivos de governança alimentar, como conselhos de alimentação e outras plataformas multiatores.",
-                "Os governos devem revisar, implementar e monitorar seus compromissos com os sistemas alimentares, incluindo os caminhos nacionais lançados na Cúpula de Sistemas Alimentares das Nações Unidas em 2021, de forma inclusiva e com ênfase na responsabilidade e governança em todos os níveis.",
-                "No nível global, os governos devem fortalecer o Comitê de Segurança Alimentar Mundial (CFS) para que ele possa cumprir seu mandato como a plataforma central multilateral, inclusiva e de coordenação de políticas globais."
-            ]
-        }
-    ]
+  "data": [
+    {
+      "title": "Colocar a governança inclusiva e a responsabilidade no centro dos esforços para transformar os sistemas alimentares.",
+      "sections": [
+        "Os governos devem respeitar, proteger e garantir o direito à alimentação, que deve ser consagrado na legislação nacional e apoiado por mecanismos para reparação de queixas. Todos os atores, desde cidadãos até organizações regionais e internacionais e tribunais em todos os níveis, devem contribuir para responsabilizar os governos.",
+        "É vital que os governos fortaleçam a coordenação inclusiva das políticas de alimentação e nutrição em todos os níveis. Em particular, os processos de planejamento e orçamentação do governo devem levar em consideração os desequilíbrios de poder existentes e priorizar as vozes dos grupos e constituintes mais vulneráveis e afetados por crises. O apoio deve ser direcionado a órgãos inclusivos de governança alimentar, como conselhos de alimentação e outras plataformas multiatores.",
+        "Os governos devem revisar, implementar e monitorar seus compromissos com os sistemas alimentares, incluindo os caminhos nacionais lançados na Cúpula de Sistemas Alimentares das Nações Unidas em 2021, de forma inclusiva e com ênfase na responsabilidade e governança em todos os níveis.",
+        "No nível global, os governos devem fortalecer o Comitê de Segurança Alimentar Mundial (CFS) para que ele possa cumprir seu mandato como a plataforma central multilateral, inclusiva e de coordenação de políticas globais."
+      ]
+    },
+    {
+      "title": "Garantir a participação, ação e supervisão dos cidadãos e considerar o contexto local são essenciais.",
+      "sections": [
+        "Stakeholders em todos os níveis de governança devem aproveitar as vozes e capacidades locais. Comunidades, organizações da sociedade civil, pequenos produtores, agricultores e grupos indígenas, com seus conhecimentos locais e experiências vividas, devem moldar a governança do acesso a alimentos nutritivos; suas capacidades e boas práticas devem ser apoiadas, inclusive em contextos frágeis e afetados por conflitos.",
+        "Liderança local forte é fundamental para a sustentabilidade das intervenções nos sistemas alimentares locais e deve ser promovida, por exemplo, através do fortalecimento da capacidade de autoridades locais ou incentivando defensores locais, especialmente mulheres.",
+        "Para possibilitar a supervisão, governos e parceiros de desenvolvimento precisam aumentar a conscientização dos cidadãos sobre seus direitos e os caminhos para a segurança alimentar e nutricional. Os cidadãos precisam ter uma compreensão clara das atividades e processos dos sistemas alimentares, além de acesso garantido a dados e informações, para que possam acompanhar o desempenho do governo e fazer valer seus direitos.",
+        "Os esforços para fortalecer a governança devem ser adaptados às condições e capacidades no terreno, dada a diversidade de configurações de governo local. Os governos nacionais devem descentralizar responsabilidades para unidades administrativas inferiores e alocar recursos que permitam às autoridades locais compreender e cumprir suas responsabilidades em relação à segurança alimentar e nutricional local."
+      ]
+    },
+    {
+      "title": "Ampliar recursos para enfrentar necessidades humanitárias urgentes, ao mesmo tempo em que transforma os sistemas alimentares para torná-los resilientes a choques.",
+      "sections": [
+        "A comunidade internacional precisa mobilizar maior apoio público, aumentar os investimentos e diversificar as fontes de financiamento para atender às crescentes necessidades humanitárias, ao mesmo tempo em que intensifica os esforços essenciais para fortalecer a resiliência. A Conferência das Nações Unidas sobre Mudanças Climáticas de 2022 (COP27) e fóruns internacionais subsequentes devem fornecer compromissos para acelerar a transformação dos sistemas alimentares para todos.",
+        "Em países afetados por crises prolongadas, os governos e parceiros de desenvolvimento devem utilizar sistemas de alerta precoce e fundos contingenciais flexíveis para antecipar choques e responder rapidamente a eles. Iniciativas como a Rede Global Contra Crises Alimentares devem ser apoiadas para garantir respostas mais rápidas por meio de intervenções baseadas em evidências.",
+        "Diante das pressões globais sobre a segurança alimentar, os governos devem evitar reações ad hoc, como restrições às exportações. Em vez disso, devem considerar o uso de instalações de importação de alimentos para garantir que o aumento dos preços dos alimentos não leve a um aumento da fome, da instabilidade social ou de conflitos.",
+        "Em situações de conflito, os atores envolvidos em atividades humanitárias, de desenvolvimento e de construção da paz devem se unir para analisar e responder em conjunto às necessidades das pessoas afetadas pelo conflito. Essa abordagem vinculará o atendimento prático às necessidades imediatas das pessoas com atenção às suas necessidades de subsistência a longo prazo, ao mesmo tempo em que promove a reconciliação e a construção da paz."
+      ]
+    }
+  ]
 }
