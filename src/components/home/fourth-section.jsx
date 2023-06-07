@@ -1,33 +1,46 @@
-import { HiCheckCircle } from "react-icons/hi"
+import { TbApple } from "react-icons/tb"
+import { MdUpdate, MdOutlineRealEstateAgent, MdHome, MdOutlineHealthAndSafety, MdEco } from "react-icons/md"
 
 const HomeFourthSection = () => {
     return (
-        <div className="h-auto w-full bg-third-default px-6 md:px-16 py-14 md:justify-center md:items-center flex flex-col">
-            <p className="text-4xl font-bold">Nossos pilares!</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-12 md:mt-8 gap-8">
+        <div className="h-auto w-full bg-primary-default px-6 md:px-16 py-10 md:justify-center md:items-center flex flex-col">
+            <p className="text-4xl font-bold text-white">Nossos pilares!</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-12 md:mt-10 gap-8">
                 <div className="flex flex-col gap-2 items-start md:items-center">
-                    <HiCheckCircle size={50} className="text-black" />
-                    <p className="text-sm text-start md:text-center">Pilar 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio eligendi totam. Quidem reprehenderit atque aliquid dignissimos voluptatum nemo, recusandae illo, ducimus accusantium labore maxime exercitationem illum inventore, vero suscipit.</p>
+                    <TbApple size={50} className="text-white" />
+                    <p className="text-sm text-start md:text-center text-white">
+                        Acesso a alimentos nutritivos para todos, o que constitui a base fundamental de nossa organização. 
+                    </p>
                 </div>
                 <div className="flex flex-col gap-2 items-start md:items-center">
-                    <HiCheckCircle size={50} className="text-black" />
-                    <p className="text-sm text-start md:text-center">Pilar 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio eligendi totam. Quidem reprehenderit atque aliquid dignissimos voluptatum nemo, recusandae illo, ducimus accusantium labore maxime exercitationem illum inventore, vero suscipit.</p>
+                    <MdUpdate size={50} className="text-white" />
+                    <p className="text-sm text-start md:text-center text-white">
+                        Buscamos implementar soluções de longo prazo que garantam que as comunidades tenham acesso consistente e sustentável a alimentos. 
+                    </p>
                 </div>
                 <div className="flex flex-col gap-2 items-start md:items-center">
-                    <HiCheckCircle size={50} className="text-black" />
-                    <p className="text-sm text-start md:text-center">Pilar 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio eligendi totam. Quidem reprehenderit atque aliquid dignissimos voluptatum nemo, recusandae illo, ducimus accusantium labore maxime exercitationem illum inventore, vero suscipit.</p>
+                    <MdOutlineRealEstateAgent size={50} className="text-white" />
+                    <p className="text-sm text-start md:text-center text-white">
+                        Estabelecemos parcerias estratégicas com governos, outras organizações não governamentais, empresas e instituições acadêmicas.
+                    </p>
                 </div>
                 <div className="flex flex-col gap-2 items-start md:items-center">
-                    <HiCheckCircle size={50} className="text-black" />
-                    <p className="text-sm text-start md:text-center">Pilar 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio eligendi totam. Quidem reprehenderit atque aliquid dignissimos voluptatum nemo, recusandae illo, ducimus accusantium labore maxime exercitationem illum inventore, vero suscipit.</p>
+                    <MdHome size={50} className="text-white" />
+                    <p className="text-sm text-start md:text-center text-white">
+                        Trabalhamos em estreita colaboração com as comunidades, ouvindo suas necessidades, fortalecendo suas habilidades e promovendo uma participação ativa
+                    </p>
                 </div>
                 <div className="flex flex-col gap-2 items-start md:items-center">
-                    <HiCheckCircle size={50} className="text-black" />
-                    <p className="text-sm text-start md:text-center">Pilar 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio eligendi totam. Quidem reprehenderit atque aliquid dignissimos voluptatum nemo, recusandae illo, ducimus accusantium labore maxime exercitationem illum inventore, vero suscipit.</p>
+                    <MdOutlineHealthAndSafety size={50} className="text-white" />
+                    <p className="text-sm text-start md:text-center text-white">
+                        Trabalhamos para aumentar a conscientização sobre as questões relacionadas à fome e à segurança alimentar, mobilizando o público em geral e influenciadores. 
+                    </p>
                 </div>
                 <div className="flex flex-col gap-2 items-start md:items-center">
-                    <HiCheckCircle size={50} className="text-black" />
-                    <p className="text-sm text-start md:text-center">Pilar 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio eligendi totam. Quidem reprehenderit atque aliquid dignissimos voluptatum nemo, recusandae illo, ducimus accusantium labore maxime exercitationem illum inventore, vero suscipit.</p>
+                    <MdEco size={50} className="text-white" />
+                    <p className="text-sm text-start md:text-center text-white">
+                        Buscamos abordagens que promovam a produção e o consumo sustentáveis, minimizando o impacto negativo no meio ambiente.
+                    </p>
                 </div>
             </div>
         </div>

@@ -8,10 +8,10 @@ export default function Home() {
   return (
   <div>
     <HomeFirstSection />
-    <HomeSecondSection />
     <HomeThirdSection />
     <HomeFourthSection />
     <HomeFifthSection />
+    <HomeSecondSection />
   </div>
   )
 }

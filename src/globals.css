@@ -7,11 +7,11 @@ body {
 }
 
 .navbar-item {
-  @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-black font-medium text-lg hover:text-secondary-default ease-linear transition-all
+  @apply px-6 lg:px-2 py-5 w-full md:w-[15%] truncate text-start lg:text-center cursor-pointer text-white lg:text-primary-dark font-medium text-lg hover:text-secondary-default ease-linear transition-all
 }
 
 .navbar-item-selected {
-  @apply px-6 lg:px-2 py-5 w-full lg:w-[15%] xl:w-[12%] text-start lg:text-center cursor-pointer text-white lg:text-primary-default font-bold lg:font-medium text-lg 
+  @apply px-6 lg:px-2 py-5 w-full md:w-[15%] truncate text-start lg:text-center cursor-pointer text-white lg:text-primary-default font-bold lg:font-medium text-lg 
 }
 
 
