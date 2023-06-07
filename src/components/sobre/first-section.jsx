@@ -1,7 +1,7 @@
 import historyImg from "@pub/history.png"
 import Image from "next/image"
 
-const SobreFirsthSection = () => {
+const SobreFirstSection = () => {
     return (
         <div className="w-full h-auto py-16 px-6 md:px-32 xl:px-44 flex flex-col items-start justify-center md:items-center">
             <p className="text-6xl font-bold">Sobre nós</p>
@@ -17,4 +17,4 @@ const SobreFirsthSection = () => {
     )
 }
 
-export default SobreFirsthSection
+export default SobreFirstSection
