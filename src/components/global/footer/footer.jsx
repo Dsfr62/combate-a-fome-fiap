@@ -8,7 +8,7 @@ const Footer = () => {
 
     return (
         <div className="bg-primary-default">
-            <div className="max-w-[1440px] mx-auto w-full h-auto flex flex-col md:grid md:grid-cols-3 px-8 md:px-16 py-8 text-sm justify-between">
+            <div className="max-w-[1440px] mx-auto w-full h-auto flex flex-col md:grid md:grid-cols-3 px-8 py-8 text-sm justify-between">
                 <div className="flex flex-col w-full">
                     <p className="text-white font-bold text-lg">LINKS ÚTEIS</p>
                     <ul className="flex flex-col mt-4 text-white gap-1">
