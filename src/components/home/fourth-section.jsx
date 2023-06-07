@@ -3,9 +3,9 @@ import { MdUpdate, MdOutlineRealEstateAgent, MdHome, MdOutlineHealthAndSafety, M
 
 const HomeFourthSection = () => {
     return (
-        <div className="h-auto w-full bg-primary-default px-6 md:px-16 py-10 md:justify-center md:items-center flex flex-col">
+        <div className="h-auto w-full bg-primary-default px-8 py-10 md:justify-center md:items-center flex flex-col">
             <p className="text-4xl font-bold text-white">Nossos pilares!</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-12 md:mt-10 gap-8">
+            <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-12 md:mt-10 gap-8">
                 <div className="flex flex-col gap-2 items-start md:items-center">
                     <TbApple size={50} className="text-white" />
                     <p className="text-sm text-start md:text-center text-white">
