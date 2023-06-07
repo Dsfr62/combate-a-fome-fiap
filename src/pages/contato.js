@@ -1,6 +1,6 @@
 export default function Contato() {
   return (
-  <form className="w-full flex flex-col h-auto py-10 px-4 md:px-12 gap-4">
+  <form className="max-w-[1440px] mx-auto w-full flex flex-col h-auto py-10 px-4 md:px-12 gap-4">
     <p className="text-3xl font-medium mb-2 col-span-2 text-primary-default">Entre em contato conosco</p>
     <div className="flex flex-col gap-1">
         <label className="font-light text-lg">Nome Completo <span className="text-fourth-default font-semibold">*</span></label>
