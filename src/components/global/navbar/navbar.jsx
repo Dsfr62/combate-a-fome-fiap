@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <div className="w-full flex h-28 justify-between items-center px-2 lg:px-12 bg-white fade-in-1">
+    <div className="w-full max-w-[1440px] mx-auto flex h-28 justify-between items-center px-8 bg-white fade-in-1">
         <Image onClick={() => router.push("/")} src={navbarLogo} alt="logo" className="p-4 lg:px-2 lg:py-2 cursor-pointer" />
         <div className={`lg:w-[100%] lg:visible lg:flex gap-0 lg:gap-2 lg:items-center lg:justify-end
           ${!nav ? 'invisible hidden fade-in-1' : 'fade-in-1 fixed flex flex-col w-[60%] h-full left-0 top-0 bg-primary-default'}
