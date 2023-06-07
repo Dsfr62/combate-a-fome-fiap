@@ -6,7 +6,7 @@ const NavItem = ({ path, currentPath, text }) => {
     return (
       <a
         href={path}
-        className={`navbar-item ${isActive ? "navbar-item-selected" : ""}`}
+        className={`${isActive ? "navbar-item-selected" : "navbar-item"}`}
       >
         {text}
       </a>

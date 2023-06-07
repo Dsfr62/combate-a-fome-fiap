@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-item-selected {
-    @apply px-6 lg:px-2 py-5 w-full md:w-[15%] truncate text-start lg:text-center cursor-pointer text-white lg:text-primary-default font-bold lg:font-medium text-lg
+    @apply px-6 lg:px-2 py-5 w-full md:w-[15%] truncate text-start lg:text-center cursor-pointer text-white lg:text-secondary-default font-bold lg:font-medium text-lg
 }
 
 .fade-in-1 {
