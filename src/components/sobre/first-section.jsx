@@ -7,13 +7,13 @@ const SobreFirstSection = () => {
             className="h-auto flex flex-col items-start">
             <div className="bg-[#F5EFEF] w-full h-auto py-8 flex flex-col items-start">
                 <div className="flex justify-items-start w-full max-w-[1440px] mx-auto px-8">
-                    <h1 className="text-4xl font-bold text-fourth-default sm:text-6xl">
+                    <h1 className="text-4xl font-bold text-fourth-default">
                         Crise Alimentar
                     </h1>
                 </div>
             </div>
-            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row flex-wrap">
+                <h2 className="text-2xl font-bold text-fourth-default uppercase lg:w-1/3 px-0 md:px-2">
                     Insegurança Alimentar
                 </h2>
                 <div className="lg:w-2/3">
@@ -31,8 +31,8 @@ const SobreFirstSection = () => {
                     </p>
                 </div>
             </div>
-            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row flex-wrap">
+                <h2 className="text-2xl font-bold text-fourth-default uppercase lg:w-1/3 px-0 md:px-2">
                     Causas da fome extrema
                 </h2>
                 <div className="lg:w-2/3">
@@ -54,8 +54,8 @@ const SobreFirstSection = () => {
                         todos.</p>
                 </div>
             </div>
-            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Pontos críticos de
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row flex-wrap">
+                <h2 className="text-2xl font-bold text-fourth-default uppercase lg:w-1/3 px-0 md:px-2">Pontos críticos de
                     fome</h2>
                 <div className="lg:w-2/3">
                     <Image src={lineIMG} alt="img" className="mb-6 md:mt-6 lg:mt-0"/>
@@ -78,8 +78,8 @@ const SobreFirstSection = () => {
                         lugares, causando uma das maiores crises de refugiados na história recente da Europa.</p>
                 </div>
             </div>
-            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row">
-                <h2 className="text-3xl font-bold text-fourth-default uppercase sm:text-4xl lg:w-1/3">Vamos acabar com a
+            <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col lg:flex-row flex-wrap">
+                <h2 className="text-2xl font-bold text-fourth-default uppercase lg:w-1/3 px-0 md:px-2">Vamos acabar com a
                     fome</h2>
                 <div className="lg:w-2/3">
                     <Image src={lineIMG} alt="img" className="mb-6 md:mt-6 lg:mt-0"/>
