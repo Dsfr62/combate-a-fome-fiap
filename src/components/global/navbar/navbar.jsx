@@ -10,10 +10,10 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <div className="w-full flex h-28 justify-between items-center px-4 lg:px-12 bg-white fade-in-1">
+    <div className="w-full flex h-28 justify-between items-center px-4 lg:px-12 bg-white fade-in-1 border-b-2 border-primary-default">
         <Image src={navbarLogo} alt="logo" className="p-4 lg:px-2 lg:py-2" />
         <div className={`lg:w-[100%] lg:visible lg:flex gap-0 lg:gap-2 lg:items-center lg:justify-end
-          ${!nav ? 'invisible hidden fade-in-1' : 'fade-in-1 fixed flex flex-col w-[60%] h-full left-0 top-0 bg-primary-default border-r-2 border-secondary-default'}
+          ${!nav ? 'invisible hidden fade-in-1' : 'fade-in-1 fixed flex flex-col w-[60%] h-full left-0 top-0 bg-primary-default'}
           `}>
           <NavItem path="/" currentPath={router.pathname} text={"Informações"} />
           <NavItem path="/contato" currentPath={router.pathname} text={"Contato"} />
