@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aiIMG from "@pub/ai-img.png";
+import aiIMG from "@pub/img/ai-img.png";
 
 const AgricultureSecondSection = () => {
     return (

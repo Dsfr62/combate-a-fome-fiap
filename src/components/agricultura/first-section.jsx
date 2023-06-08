@@ -1,4 +1,4 @@
-import heroIMG from "@pub/agri-hero.png"
+import heroIMG from "@pub/img/agri-hero.png"
 import Image from "next/image";
 
 const AgricultureFirstSection = () => {

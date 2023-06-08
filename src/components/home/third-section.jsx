@@ -1,4 +1,4 @@
-import thirdSectionImg from "@pub/home-third-section.png"
+import thirdSectionImg from "@pub/img/home-third-section.png"
 import Image from "next/image"
 
 const HomeThirdSection = () => {

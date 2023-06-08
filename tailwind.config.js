@@ -21,7 +21,7 @@ module.exports = {
         1440: "1440px"
       },
       backgroundImage: {
-        'bg-banner-img' : "url('../public/fome_banner.png')",
+        'bg-banner-img' : "url('../public/img/fome_banner.png')",
       }
     },
   },

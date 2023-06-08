@@ -1,5 +1,5 @@
 import {Legend, LineChart} from "@tremor/react"
-import chartData from "@pub/dados.json"
+import chartData from "@pub/data/dados.json"
 
 const DadosFifthSection = () => {
 

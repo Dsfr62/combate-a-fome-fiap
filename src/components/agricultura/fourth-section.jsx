@@ -1,5 +1,5 @@
 import Image from "next/image";
-import boxIMG from "@pub/box-img.png";
+import boxIMG from "@pub/img/box-img.png";
 
 const AgricultureFourthSection = () => {
     return (

@@ -1,4 +1,4 @@
-import lineIMG from "@pub/line_brake.png"
+import lineIMG from "@pub/img/line_brake.png"
 import Image from "next/image"
 
 const SobreFirstSection = () => {

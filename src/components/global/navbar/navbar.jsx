@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import { HiMenu, HiX } from "react-icons/hi"
 import { useState } from "react"
 import NavItem from "./nav-item"
-import navbarLogo from "@pub/navbar-logo.png"
+import navbarLogo from "@pub/img/navbar-logo.png"
 
 const Navbar = () => {
   const router = useRouter()

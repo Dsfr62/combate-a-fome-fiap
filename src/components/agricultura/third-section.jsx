@@ -1,5 +1,5 @@
 import Image from "next/image";
-import scrapIMG from "@pub/scrap-img.png";
+import scrapIMG from "@pub/img/scrap-img.png";
 
 const AgricultureThirdSection = () => {
     return (

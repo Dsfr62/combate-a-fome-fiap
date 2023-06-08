@@ -1,5 +1,5 @@
 import Image from "next/image"
-import footerImg from "@pub/vida-nova-logo.png"
+import footerImg from "@pub/img/vida-nova-logo.png"
 import { useRouter } from "next/router"
 import { BsInstagram, BsLinkedin, BsFacebook } from "react-icons/bs"
 

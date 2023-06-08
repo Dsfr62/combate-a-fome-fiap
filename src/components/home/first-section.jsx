@@ -1,11 +1,11 @@
-import homeImg from "@pub/home-img.png"
+import homeImg from "@pub/img/home-img.png"
 import Image from "next/image"
 
 const HomeFirstSection = () => {
     return (
         <div className="max-w-[1440px] mx-auto h-auto flex flex-col px-8 md:flex-row py-28 gap-8">
             <div className="w-full flex flex-col justify-center gap-8 items-start">
-                <p className="text-4xl md:text-6xl xl:text-8xl font-bold text-primary-default">
+                <p className="text-4xl md:text-6xl xl:text-8xl font-bold text-primary-default" id="Main-Heading">
                     VIDA NOVA
                 </p>
                 <p className="text-xl md:text-2xl font-light text-primary-dark text-left w-[80%]">

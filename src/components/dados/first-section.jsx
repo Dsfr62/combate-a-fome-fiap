@@ -1,5 +1,5 @@
 import Image from "next/image"
-import firstImg from "@pub/dados_1.png"
+import firstImg from "@pub/img/dados_1.png"
 
 const DadosFirstSection = () => {
     return (

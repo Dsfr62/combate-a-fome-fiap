@@ -1,6 +1,6 @@
 import PoliticaFirstSection from "@/components/politica/first-section";
 import PoliticaSecondSectionItem from "@/components/politica/item";
-import politicaDados from "@pub/politicas.json"
+import politicaDados from "@pub/data/politicas.json"
 
 export default function Politica() {
     return (
