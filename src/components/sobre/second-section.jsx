@@ -1,3 +1,5 @@
+import { redirectToAgricultura } from "../../../scripts/script"
+
 const SobreSecondSection = () => {
     return (
         <div className="w-full flex flex-col h-auto items-center bg-bg-banner-img bg-cover py-28">
@@ -9,7 +11,7 @@ const SobreSecondSection = () => {
                     Saiba como fazer a diferença na vida de milhões de
                     pessoas em todo o mundo
                 </p>
-                <button type="button" onClick={() => window.open("/agricultura", "_self")}
+                <button type="button" onClick={redirectToAgricultura}
                         className="bg-fourth-default mt-6 rounded-[4px] font-normal text-white md:text-lg xl:text-xl py-1.5 text-center w-[75%] md:w-[50%]">
                     Mais Informações
                 </button>

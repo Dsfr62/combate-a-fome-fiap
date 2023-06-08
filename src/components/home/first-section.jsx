@@ -1,5 +1,6 @@
 import homeImg from "@pub/img/home-img.png"
 import Image from "next/image"
+import { redirectToAgricultura } from "../../../scripts/script"
 
 const HomeFirstSection = () => {
     return (
@@ -13,7 +14,7 @@ const HomeFirstSection = () => {
                     fome e contribuir para um mundo melhor.
                 </p>
                 <button
-                    type="button" onClick={() => window.open("/agricultura", "_self")}
+                    type="button" onClick={redirectToAgricultura}
                     className="bg-secondary-default rounded-full font-bold text-white md:text-lg xl:text-xl py-2 text-center w-[50%]">
                     Mais Informações
                 </button>

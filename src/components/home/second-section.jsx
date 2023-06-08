@@ -1,3 +1,5 @@
+import { redirectToContato } from "../../../scripts/script"
+
 const HomeSecondSection = () => {
     return (
         <div
@@ -7,7 +9,7 @@ const HomeSecondSection = () => {
             </p>
             <button
                 className="bg-third-default px-6 py-2 text-white text-xl md:text-3xl"
-                onClick={() => window.open("/contato", "_self")}
+                onClick={redirectToContato}
                 type="button">DOE AGORA
             </button>
         </div>
