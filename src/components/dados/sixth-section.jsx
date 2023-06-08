@@ -7,7 +7,7 @@ const DadosSixthSection = () => {
                 Índice Global de Fome 2022: Transformação dos Sistemas Alimentares e Governança Local
             </p>
             <iframe 
-            className="w-full max-w-[1440px] h-[20rem] md:h-[32rem] px-0 md:px-4 py-2"
+            className="w-full max-w-[980px] h-[20rem] md:h-[32rem] px-0 md:px-4 py-2"
             src="https://www.youtube.com/embed/4NqAcoYeJ8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     )

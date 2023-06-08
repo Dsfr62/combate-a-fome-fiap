@@ -10,12 +10,12 @@ const PoliticaFirstSection = () => {
                 </div>
             </div>
         </div>
-        <div className="max-w-[1440px] mx-auto px-8 w-full gap-6 flex flex-col my-4 py-8 text-primary-dark">
+        <div className="max-w-[1440px] mx-auto px-8 w-full gap-6 flex flex-col py-8 text-primary-dark md:text-2xl">
             <p>
                 O Índice Global de Fome (GHI) de 2022 reflete tanto o escândalo da alarmante fome em muitos países ao redor do mundo quanto a trajetória de mudança em países onde décadas de progresso no combate à fome estão sendo erodidas.
             </p>
             <p>
-                Essas recomendações destacam a necessidade de responder às emergências atuais e, ao mesmo tempo, transformar os sistemas alimentares para que sejam mais equitativos, inclusivos, sustentáveis ​​e resilientes, e assim sejam capazes de evitar crises futuras.
+                Essas recomendações destacam a necessidade de responder às emergências atuais e, ao mesmo tempo, transformar os sistemas alimentares para que sejam mais equitativos, inclusivos, sustentáveis e resilientes, e assim sejam capazes de evitar crises futuras.
             </p>
         </div>
     </>

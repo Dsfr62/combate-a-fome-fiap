@@ -10,8 +10,8 @@ const DadosFirstSection = () => {
             </div>
         </div>
         <div className="max-w-[1440px] mx-auto px-8 py-8 flex flex-col justify-between lg:flex-row">
-            <div className=" py-8 flex flex-col justify-between lg:flex-row">
-                <div className="w-full md:w-2/4">
+            <div className="flex flex-col justify-between lg:flex-row">
+                <div className="w-full lg:w-2/4">
                     <h2 className="text-2xl font-bold text-primary-default uppercase">
                         Conheça a Realidade e Ajude a Mudar essa  História
                     </h2>
@@ -22,7 +22,7 @@ const DadosFirstSection = () => {
                         A fome é uma realidade que não pode ser ignorada. Os dados apresentados nesta página nos mostram que é hora de agir. Junte-se a nós nessa luta contra a fome, compartilhe essas informações e participe de iniciativas que visam garantir o direito fundamental à alimentação para todos. Vamos fazer a diferença juntos!
                     </p>
                 </div>
-                <div className="w-full md:w-2/5 mt-4 md:mt-0">
+                <div className="w-[80%] mx-auto lg:w-2/5 mt-6 lg:mt-0">
                     <Image src={firstImg} alt="img" className="w-[100%] rounded-lg"/>
                 </div>
             </div>
