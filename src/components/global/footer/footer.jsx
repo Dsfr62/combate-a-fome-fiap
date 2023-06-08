@@ -36,9 +36,9 @@ const Footer = () => {
                     <p className="text-white font-bold text-lg mb-2 p-0 md:px-4 text-start md:text-end">REDES
                         SOCIAIS</p>
                     <div className="flex gap-2 p-0 md:px-4 self-start md:self-end">
-                        <BsInstagram size={40} className="p-2 rounded-2xl bg-white text-primary-default" onClick={openInstagram} />
-                        <BsLinkedin size={40} className="p-2 rounded-2xl bg-white text-primary-default" onClick={openLinkedin} />
-                        <BsFacebook size={40} className="p-2 rounded-2xl bg-white text-primary-default" onClick={openFacebook} />
+                        <BsInstagram size={40} className="p-2 rounded-2xl bg-white text-primary-default cursor-pointer hover:opacity-90 ease-linear transition-all " onClick={openInstagram} />
+                        <BsLinkedin size={40} className="p-2 rounded-2xl bg-white text-primary-default cursor-pointer hover:opacity-90 ease-linear transition-all " onClick={openLinkedin} />
+                        <BsFacebook size={40} className="p-2 rounded-2xl bg-white text-primary-default cursor-pointer hover:opacity-90 ease-linear transition-all " onClick={openFacebook} />
                     </div>
                     <p className="font-bold text-white text-lg p-0 md:px-4 mt-8 text-start md:text-end">2023 Vida
                         Nova</p>
