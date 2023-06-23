@@ -10,7 +10,6 @@ export default function Home() {
       <SecondSectionML5 />
       <ThirdSectionML5 />
       <FourthSectionML5 />
-      <FourthSectionML5 />
     </div>
   );
 }
