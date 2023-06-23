@@ -1,17 +1,15 @@
-import HomeFifthSection from "@/components/home/fifth-section";
-import HomeFirstSection from "@/components/home/first-section";
-import HomeFourthSection from "@/components/home/fourth-section";
-import HomeSecondSection from "@/components/home/second-section";
-import HomeThirdSection from "@/components/home/third-section";
+import FirstSectionML5 from "@/components/ml5/first-section";
+import SecondSectionML5 from "@/components/ml5/second-section";
+import ThirdSectionML5 from "@/components/ml5/third-section";
+import FourthSectionML5 from "@/components/ml5/fourth-section";
 
 export default function Home() {
   return (
-  <div>
-    <HomeFirstSection />
-    <HomeThirdSection />
-    <HomeFourthSection />
-    <HomeFifthSection />
-    <HomeSecondSection />
-  </div>
-  )
+    <div>
+      <FirstSectionML5 />
+      <SecondSectionML5 />
+      <ThirdSectionML5 />
+      <FourthSectionML5 />
+    </div>
+  );
 }
